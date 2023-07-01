@@ -24,3 +24,23 @@
     line-height: 1;
     border-bottom: 3px solid rgb(161, 156, 156);
 }
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+img {
+    max-width: 100%;
+    height: auto;
+  }
+@media (min-width: 1200px) {
+    
+    .container {
+      max-width: 1400px;
+    }
+    
+    h1, h2, h3, p {
+      font-size: 1.5rem;
+    }
+  }
