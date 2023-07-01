@@ -1,0 +1,26 @@
+.nav-link{
+    color:rgb(125, 125, 202);
+    font-size:1rem;
+    font-weight: 700;
+    cursor:pointer;
+
+}
+.nav-link:hover{
+    color: white;
+    background-color: rgb(125, 125, 202);
+}
+.main{
+    background:url(randomimage.png)no-repeat;
+    background-size:cover;
+    width:100%
+}
+.main h3{
+    font: size 4.5rem;
+    font-weight:700;
+}
+.main h6{
+    font: size 1.4rem;
+    text-transform:uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(161, 156, 156);
+}
